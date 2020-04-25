@@ -59,7 +59,7 @@ body {
     list-style: lower-roman;
 }
 .custom_card-deck{display:contents !important;}
-.shd_do h3{text-align:center;}
+.shd_do h3{text-align:center ;}
 .card-title{text-align:center;}
 .align_c li{text-align:center;line-height: 2;}
 #contact-us h3{text-align:center;}
@@ -103,6 +103,10 @@ footer.page-footer .footer-copyright {
 	.card-deck{padding:10px;}
 	.m-t {
     margin-top: 15px;
+}
+#courses .card:hover {
+    transform: none;
+    box-shadow: none;
 }
 .abt_us{height:auto;}
 .abt_us .m_t1 {
