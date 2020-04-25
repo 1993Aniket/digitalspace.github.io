@@ -1,0 +1,118 @@
+body {
+	font-family: 'Nunito Sans', sans-serif;
+}
+ a, ul, li{list-style:none;text-decoration: none;}
+
+
+.m-l {
+	margin: 0px 0px 0px 108px;
+}
+
+.m-t {
+	margin-top: 25px;
+}
+/*    css for head section  */
+.page-header {
+	position: relative;
+	padding-top: 11rem;
+	height: 817px;
+	background-image: url(../img/banner2.png);
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: cover;
+}
+
+.content_h5 {
+	padding: 50px 0px 0px 43px;
+}
+
+#courses .card:hover {
+	transform: scale(1.05);
+	box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.page-header .m-l h3 {
+	color: #fff;
+	font-size: 54px;
+	font-weight: bolder;
+}
+
+.page-header .m-l h5 {
+	color: #fff;
+}
+#batch_details{
+	background-image:url(../img/bg-1.jpg);
+}
+#batch_details h3{text-align:center;color:#fff;margin-top: 22px;}
+#batch_details table{text-align:center;color:#fff;}
+
+.abt_us {
+	color: #fff;
+	background: linear-gradient(90deg, rgb(32, 0, 126) 0%, rgb(230, 30, 182) 100%);
+	height: 350px;
+}
+.abt_us h3{text-align:center;}
+.abt_us h5{text-align: center;}
+.abt_us .m_t1{margin-top: 40px;}
+.card-body.lst_stl li {
+    list-style: lower-roman;
+}
+.custom_card-deck{display:contents !important;}
+.shd_do h3{text-align:center;}
+.card-title{text-align:center;}
+.align_c li{text-align:center;line-height: 2;}
+#contact-us h3{text-align:center;}
+
+/*      head section ends     */
+
+
+/*footer section starts*/
+footer.page-footer {
+	bottom: 0;
+	color: #fff;
+}
+
+footer.page-footer .footer-copyright {
+	overflow: hidden;
+	color: rgba(255, 255, 255, 0.6);
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.special-color-dark {
+	background-color: #263238 !important;
+}
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+     bottom: 2px;
+    right: 36px;
+    font-size:45px;
+    display:none;
+}
+/*footer section ends*/
+
+/* media query start */
+@media (max-width: 575.98px) {
+	.page-header {
+		background-position: top;
+		background-size: auto;
+	}
+	.m-l {
+		margin: 0px 0px 0px 0px;
+	}
+	.card-deck{padding:10px;}
+	.m-t {
+    margin-top: 15px;
+}
+.abt_us{height:auto;}
+.abt_us .m_t1 {
+    margin-top: 12px;
+}
+.abt_us .m_t1 h5{
+text-align: justify;
+    font-size: 17px;
+}
+.custom_card-deck {
+    display: initial !important;
+}
+}
